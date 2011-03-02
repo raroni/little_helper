@@ -3,3 +3,10 @@
   <div class="creator"><input placeholder="What do you need to do?"></div>
   <ul></ul>
 </div>
+
+<%= javascript_include_tag(
+  'models/todo',
+  'collections/todo_collection',
+  'views/todos/app_view',
+  'views/todos/initializer'
+) %>
