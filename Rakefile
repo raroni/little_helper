@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Todos::Application.load_tasks
+LittleHelper::Application.load_tasks
