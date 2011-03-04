@@ -4,6 +4,11 @@
   <ul></ul>
 </div>
 
+<script type="text/template" id="todo-template"> 
+  <span class="description"><%%= description %></span>
+  <a class="delete">Slet</a>
+</script>
+
 <%= javascript_include_tag(
   'models/todo',
   'collections/todo_collection',
