@@ -3,6 +3,10 @@ body {
   font-family: 'Lucida Sans', "Lucida Grande";
   margin: 50px 0; }
 
+a {
+  text-decoration: underline;
+  cursor: pointer; }
+
 #todo_manager_app {
   background: #ffffff;
   padding: 1px 30px;
@@ -15,4 +19,10 @@ body {
     padding: 10px;
     font-size: 18px; }
   #todo_manager_app ul {
-    margin-bottom: 30px; }
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 32px; }
+    #todo_manager_app ul li {
+      margin: 10px 0; }
+      #todo_manager_app ul li a {
+        color: #666666; }
