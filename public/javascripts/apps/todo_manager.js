@@ -4,5 +4,6 @@ var TodoManager = {
   init: function() {
     window.Todos = new TodoCollection();
     new TodoManager.Views.App();
+    Todos.fetch();
   }
 };
