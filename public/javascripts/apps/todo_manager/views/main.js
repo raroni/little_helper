@@ -13,7 +13,7 @@ TodoManager.Views.Main = Backbone.View.extend({
   },
   renderTodo: function(model) {
     var view = new TodoManager.Views.Todo({ model: model });
-    $("#todo_app ul").append(view.render().el);
+    $("#todo_manager_app ul").append(view.render().el);
     this.todo_views[model.cid] = view;
   },
   removeTodo: function(model) {
