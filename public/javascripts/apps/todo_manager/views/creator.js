@@ -1,4 +1,4 @@
-TodoManager.Views.App = Backbone.View.extend({
+TodoManager.Views.Creator = Backbone.View.extend({
   el: $('#todo_app'),
   events: {
     'keypress .creator input': 'createOnEnter'

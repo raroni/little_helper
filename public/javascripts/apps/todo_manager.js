@@ -3,7 +3,7 @@ var TodoManager = {
   Controllers: {},
   init: function() {
     window.Todos = new TodoCollection();
-    new TodoManager.Views.App();
+    new TodoManager.Views.Creator();
     Todos.fetch();
   }
 };
